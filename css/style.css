@@ -1,14 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0px;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  font-weight: 400;
   color: #293651;
 }
 
@@ -23,30 +22,26 @@ body {
   }
 }
 
-.text2 {
+.text-ola {
   font-size: 21px;
   font-weight: 200;
   margin: 0px;
-
   color: #00a78e;
 }
 @media (min-width: 960px) {
-  .text2 {
+  .text-ola {
     font-size: 26px;
-    font-weight: 200;
-    color: #00a78e;
     margin-block-end: 21.58px;
     margin-block-start: 21.58px;
   }
 }
 
-.text1 {
+.text-nome {
   font-size: 24px;
   margin: 15px;
 }
-
 @media (min-width: 960px) {
-  .text1 {
+  .text-nome {
     font-size: 35px;
     margin: 0px;
     margin-block-end: 23.45px;
@@ -54,15 +49,14 @@ body {
   }
 }
 
-.text3 {
+.text-profiss {
   font-size: 15px;
   font-weight: 200;
   margin: 0px 0px 12px 0px;
 }
 @media (min-width: 960px) {
-  .text3 {
+  .text-profiss {
     font-size: 25px;
-    font-weight: 200;
     margin-block-end: 25px;
     margin-block-start: 25px;
   }
@@ -75,7 +69,6 @@ body {
 }
 @media (min-width: 960px) {
   .p1 {
-    color: #a1a6a9;
     font-size: 19.9px;
     margin-block-end: 19.9px;
     margin-block-start: 19.9px;
@@ -100,13 +93,7 @@ body {
     height: 49px;
     padding: 0px;
     margin: 3px 0px;
-    border: none;
-    background-color: #00a78e;
-    color: aliceblue;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    text-align: center;
-    border-radius: 10px;
   }
 }
 
@@ -117,7 +104,6 @@ body {
 }
 @media (min-width: 960px) {
   .img-enzo1 {
-    text-align: center;
     height: 594px;
   }
 }
@@ -129,7 +115,16 @@ body {
 @media (min-width: 960px) {
   .container2 {
     padding: 50px 150px 50px 150px;
-    background-color: #f8f8f8;
+  }
+}
+
+.texto-sobre-enzo {
+  text-align: justify;
+  font-size: 12px;
+}
+@media (min-width: 960px) {
+  .texto-sobre-enzo {
+    font-size: 22px;
   }
 }
 
@@ -142,9 +137,6 @@ body {
 @media (min-width: 960px) {
   .text-s-h-p {
     font-size: 26px;
-    font-weight: 200;
-    color: #00a78e;
-    margin-bottom: 15px;
   }
 }
 
@@ -155,28 +147,6 @@ body {
 @media (min-width: 960px) {
   .sub-text {
     font-size: 30px;
-    margin-bottom: 12px;
-  }
-}
-
-.imagem-sobre-enzo {
-  display: inline-block;
-  width: 49%;
-}
-.imagem-sobre-enzo {
-  display: inline-block;
-  width: 49%;
-}
-
-.texto-sobre-enzo {
-  text-align: justify;
-  font-size: 12px;
-}
-@media (min-width: 960px) {
-  .texto-sobre-enzo {
-    text-align: justify;
-    font-size: 22px;
-    color: #293651;
   }
 }
 
@@ -187,16 +157,7 @@ body {
 @media (min-width: 960px) {
   .container3 {
     padding: 23px 150px 50px 150px;
-    background-color: #f8f8f89e;
   }
-}
-
-.img-enzo2 {
-  height: 703px;
-}
-
-.medir-habilidade {
-  width: 100%;
 }
 
 .p2 {
@@ -206,7 +167,6 @@ body {
 }
 @media (min-width: 960px) {
   .p2 {
-    display: inline-block;
     font-size: 20px;
   }
 }
@@ -218,9 +178,12 @@ body {
 }
 @media (min-width: 960px) {
   .p-porcentagem {
-    float: right;
     font-size: 20px;
   }
+}
+
+.medir-habilidade {
+  width: 100%;
 }
 
 progress {
@@ -231,12 +194,6 @@ progress {
 
 progress::-webkit-progress-value {
   background: #00a78e;
-  border-radius: 10px;
-}
-
-progress::webkit-progress-bar {
-  background: #a1a6a9;
-  border-radius: 10px;
 }
 
 .container4 {
@@ -245,58 +202,7 @@ progress::webkit-progress-bar {
 }
 @media (min-width: 960px) {
   .container4 {
-    height: fit-content;
     padding: 23px 150px 50px 150px;
-  }
-}
-
-.coluna1 {
-  margin-top: 15px;
-  height: fit-content;
-  background-color: #f8f8f8;
-  box-shadow: 10px 10px 5px #00a78e;
-}
-@media (min-width: 960px) {
-  .coluna1 {
-    display: inline-block;
-    width: 30%;
-    height: fit-content;
-    background-color: #f8f8f8;
-    box-shadow: 10px 10px 5px #00a78e;
-  }
-}
-
-.coluna2 {
-  margin-top: 40px;
-  height: fit-content;
-
-  background-color: #f8f8f8;
-  box-shadow: 10px 10px 5px #00a78e;
-}
-@media (min-width: 960px) {
-  .coluna2 {
-    display: inline-block;
-    width: 30%;
-    height: fit-content;
-
-    background-color: #f8f8f8;
-    margin: 66px;
-    box-shadow: 10px 10px 5px #00a78e;
-  }
-}
-.coluna3 {
-  margin-top: 50px;
-  height: fit-content;
-  background-color: #f8f8f8;
-  box-shadow: 10px 10px 5px #00a78e;
-}
-@media (min-width: 960px) {
-  .coluna3 {
-    display: inline-block;
-    width: 30%;
-    height: fit-content;
-    background-color: #f8f8f8;
-    box-shadow: 10px 10px 5px #00a78e;
   }
 }
 
@@ -324,6 +230,7 @@ progress::webkit-progress-bar {
     font-size: 30px;
   }
 }
+
 .p-projetos {
   padding: 15px 30px 30px 30px;
   text-align: justify;
@@ -332,8 +239,47 @@ progress::webkit-progress-bar {
 @media (min-width: 960px) {
   .p-projetos {
     padding: 30px 50px 50px 40px;
-    text-align: justify;
     font-size: 28px;
+  }
+}
+
+.coluna1 {
+  margin-top: 15px;
+  height: fit-content;
+  background-color: #f8f8f8;
+  box-shadow: 10px 10px 5px #00a78e;
+}
+@media (min-width: 960px) {
+  .coluna1 {
+    display: inline-block;
+    width: 30%;
+  }
+}
+
+.coluna2 {
+  margin-top: 40px;
+  height: fit-content;
+  background-color: #f8f8f8;
+  box-shadow: 10px 10px 5px #00a78e;
+}
+@media (min-width: 960px) {
+  .coluna2 {
+    display: inline-block;
+    width: 30%;
+    margin: 66px;
+  }
+}
+
+.coluna3 {
+  margin-top: 50px;
+  height: fit-content;
+  background-color: #f8f8f8;
+  box-shadow: 10px 10px 5px #00a78e;
+}
+@media (min-width: 960px) {
+  .coluna3 {
+    display: inline-block;
+    width: 30%;
   }
 }
 
@@ -349,18 +295,8 @@ footer {
   footer {
     position: absolute;
     bottom: auto;
-    background-color: #f8f8f8;
     width: 100%;
-    text-align: center;
     padding: 115px 0px 120px;
-  }
-}
-.icon {
-  height: 35px;
-}
-@media (min-width: 960px) {
-  .icon {
-    height: 58px;
   }
 }
 
@@ -374,10 +310,17 @@ img:hover {
   letter-spacing: 5px;
   margin-bottom: 9px;
 }
+.icon {
+  height: 35px;
+}
+@media (min-width: 960px) {
+  .icon {
+    height: 58px;
+  }
+}
+
 @media (min-width: 960px) {
   .texto-footger {
-    letter-spacing: 5px;
-    margin-bottom: 9px;
     font-size: 35px;
     font-weight: bold;
     margin-block-start: 0.83em;
@@ -399,7 +342,6 @@ img:hover {
 }
 @media (min-width: 960px) {
   .texto-freelancer {
-    font-family: open sans, sans-serif;
     margin-bottom: 60px;
     font-size: 22px;
   }
